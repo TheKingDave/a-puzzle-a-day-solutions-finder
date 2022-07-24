@@ -4,20 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node --files src/run.ts src/dlxlib.d.ts",
-    "start:test": "ts-node --files src/test.ts src/dlxlib.d.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node --files src/run.ts src/dlxlib.d.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dlxlib": "^1.0.3",
-    "ramda": "^0.28.0"
+    "dlxlib": "^1.0.3"
   },
   "devDependencies": {
     "@types/node": "^18.0.6",
-    "@types/ramda": "^0.28.15",
     "ts-node": "^10.9.1",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
