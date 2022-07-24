@@ -37,12 +37,3 @@ export function piecePositionToRow(piece: Piece, x: number, y: number): number[]
 
     return row;
 }
-
-export function printBoard(row: number[]): void {
-    for (const i in board) {
-        const length = board[i];
-        const prevLength = lengths[i];
-        console.log(row.slice(prevLength, prevLength + length).join(''));
-    }
-    console.log();
-}

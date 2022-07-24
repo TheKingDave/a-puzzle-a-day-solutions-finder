@@ -1,9 +1,9 @@
 import {mirrorPiece, rotatePiece} from "./stringManipulation";
 import {pieces} from "./pices";
-import {boardSize, pieceFitsOnBoard, piecePositionToRow, printBoard} from "./board";
+import {boardSize, pieceFitsOnBoard, piecePositionToRow} from "./board";
 import {PiecePositions, PieceVariations, Row} from "./types";
 import {dayRows, indexToMonthDay, months} from "./calendar";
-import {Solution, solutionGenerator} from "dlxlib";
+import {solutionGenerator} from "dlxlib";
 import {arrayWithOneAt} from "./util";
 import fs from 'fs';
 import path from "path";
